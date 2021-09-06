@@ -28,6 +28,56 @@
   color: #61dafb;
 }
 
+.btn-wrapper button {
+  color: #61dafb;
+  background-color: azure;
+  border: 0px;
+  border-radius: 6px;
+  margin: 3px;
+  padding: 5px;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.btn-wrapper button:hover {
+  color: azure;
+  transform: scale(1.05);
+  transition: 200ms;
+  background-color: #61dafb;
+  border: 0px;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.add-to-cart img {
+  width: 70px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.img-wrapper img {
+  width: 100px;
+  margin-left: auto;
+  margin-top: -20px;
+  padding: auto;
+}
+
+.cart-wrapper {
+  height: 100px;
+  width: 480px;
+  border: 1px solid red;
+  margin: 2%;
+}
+
+.item {
+  float: left;
+  width: 120px;
+  height: 70px;
+  padding: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
